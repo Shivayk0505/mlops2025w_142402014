@@ -1,0 +1,19 @@
+[resnet34]
+learning_rate = 0.01
+optimizer = "adam"
+momentum = 0.9
+
+[resnet50]
+learning_rate = 0.001
+optimizer = "sgd"
+momentum = 0.5
+
+[resnet101]
+learning_rate = 0.01
+optimizer = "adam"
+momentum = 0.9
+
+[resnet152]
+learning_rate = 0.001
+optimizer = "sgd"
+momentum = 0.9

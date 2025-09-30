@@ -1,0 +1,22 @@
+{
+  "data": {
+    "train_path": "data/train",
+    "val_path": "data/val",
+    "batch_size": 32,
+    "num_workers": 4
+  },
+  "models": {
+    "resnet34": {
+      "pretrained": true
+    },
+    "resnet50": {
+      "pretrained": true
+    },
+    "resnet101": {
+      "pretrained": true
+    },
+    "resnet152": {
+      "pretrained": true
+    }
+  }
+}

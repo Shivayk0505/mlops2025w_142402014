@@ -1,0 +1,11 @@
+[project]
+name = "142402014-mlops-assignment-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "toml>=0.10.2",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+]
